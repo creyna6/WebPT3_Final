@@ -1,0 +1,21 @@
+:root {
+  --Gray: #212121;
+  --Paper: #e3e3e3;
+  --Accent: #007bff;
+  --Hover: #ff7f7f;
+  --Active: #ff5252;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--Gray);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { background: var(--Paper); }
+
+#main {
+  background: var(--Paper);
+}

@@ -1,0 +1,149 @@
+textarea {
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input { border: 1px solid #ccc; }
+
+#hub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--Paper);
+}
+
+#hub-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1em 2em;
+    min-height: 90vh;
+    width: 90vw;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid var(--Hover);
+    border-radius: 10px;
+    padding: 1em 2em;
+    margin: 1em 0;
+    width: 300px;
+    height: 350px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: var(--Hover) transparent;
+    transition: border 250ms;
+}
+
+.card:hover {
+    border: 2px solid var(--Active);
+}
+
+.card h3 { text-align: center; }
+
+#hub-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hub-header h2 { font-size: 4rem; }
+
+#logout-button {
+    background-color: var(--Gray);
+    color: #fff;
+    transition: background-color 250ms;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1em;
+}
+
+#logout-button:hover {
+    background-color: var(--Hover);
+}
+
+#logout-button:active {
+    background-color: var(--Active);
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#add-assignment-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#add-item-button {
+    background-color: var(--Gray);
+    color: #fff;
+    transition: background-color 250ms;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#add-item-button:hover {
+    background-color: var(--Hover);
+}
+
+#add-item-button:active {
+    background-color: var(--Active);
+}
+
+#assingments-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-y: auto;
+}
+
+#assingment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+#assingment button {
+    background-color: var(--Gray);
+    color: #fff;
+    transition: background-color 250ms;
+    border: none;
+    padding: .25em .5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#assingment button:hover {
+    background-color: var(--Hover);
+}
+
+#assingment button:active {
+    background-color: var(--Active);
+}
