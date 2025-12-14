@@ -14,7 +14,7 @@ const Hub = () => {
   const [editDesc, setEditDesc] = useState("")
   const [editDue, setEditDue] = useState("")
 
-  const API = "http://localhost:4000/api"
+  const API = "https://webpt3-backend.onrender.com/api"
 
   const handleLogout = () => {
     localStorage.removeItem("sessionId")
