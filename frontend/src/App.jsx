@@ -16,7 +16,7 @@ function ProtectedRoute({ children }) {
 
 function App() {
   return (
-    <Router>
+    <Router basename='/WebPT3_Final'>
       <div id="main">
         <Routes>
           <Route path="/" element={<Login />} />
